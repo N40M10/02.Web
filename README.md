@@ -37,6 +37,18 @@ La logica seguida es:
     - Se desplegara mediante gitPages
         - Pendiente
 
+#### Uso de storage-e-commers
+Para el uso de store-e-commers solo necesitas clonar el repositorio y dentro de storage-e-commers ejecutar los scripts:
+
+    - Iniciar servidor de desarrollo
+        - [/storage-e-ecommers/] $ npm run start
+
+    - Compilacion en modo desarrollo
+        - [/storage-e-ecommers/] $ npm run dev
+
+    - Compilacion en modo produccion
+        - [/storage-e-ecommers/] $ npm run build
+
 
 ### ScriptsForEnvs
 Scripts para crear proyectos en javascript vanilla y reactJS.
