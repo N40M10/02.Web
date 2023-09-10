@@ -9,7 +9,7 @@ En caso de uso lee primero el archivo a usar y perzonalizalo a tus circunstancia
 ### ScriptsForEnvs
 Scripts para crear proyectos en javascript vanilla y reactJS.
 
-Ambos crean una app base para poder desarrollar proyectos web, es una alternativa propia a create-react-app o vite, no se recomienda su uso para produccion ya que esto es solo una muestra y un entorno de practicas, en caso de querer usar esto para produccion se necesita personalizacion y una refactorizacion pertinente, a futuro es posible que realize estas mejorar y algunas mas.
+Ambos crean una app base para poder desarrollar proyectos web, es una alternativa propia a create-react-app o vite, no se recomienda su uso para produccion ya que esto es solo una muestra y un entorno de practicas, en caso de querer usar esto para produccion se necesita personalizacion y una refactorizacion pertinente, en el futuro se mejorara para uso en produccion.
 
 Usan node y webpack como base, a estos se les aplica algunas configuraciones que hacen su uso mas comodo, tienen un servidor de desarrollo, se aplica sass para estilos y estos tienen responsive desing muy basico que deben ser perzonalizados en caso de desarrollar una app.
 
