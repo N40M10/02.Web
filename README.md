@@ -29,12 +29,14 @@ La logica seguida es:
 
     - Se inicia con la maquetacion.
         - Algunos elementos no seran terminados al agregar interactividad.
+        - Se inicia con Mobile first(320*480).
 
-    - Se agregara interactividad mediane JS.
+    - Se agregara interactividad mediante JS.
         - Pendiente
 
     - Se desplegara mediante gitPages
         - Pendiente
+
 
 ### ScriptsForEnvs
 Scripts para crear proyectos en javascript vanilla y reactJS.
