@@ -12,25 +12,22 @@
 }
 
 .header__buttonlist {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  justify-items: space-between;
-  align-items: center;
-
-  width: 80px;
+  width: auto;
   height: 20px;
 
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  justify-items: flex-end;
+  align-items: center;
+  column-gap: 26px;
+
   a {
-    width: 14px;
-    height: 16px;
+    min-width: auto;
+    min-height: 16px;
 
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    justify-items: space-between;
-    align-items: center;
+    display: block;
 
-    background-color: black;
+    color: #323334;
   }
 }

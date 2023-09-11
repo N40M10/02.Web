@@ -57,7 +57,7 @@
     align-content: flex-start;
     justify-items: flex-start;
     align-items: flex-start;
-    row-gap: 18px;
+    row-gap: 14px;
 
     padding: 12px 0 0 20px;
 
@@ -67,7 +67,7 @@
       flex-shrink: 0;
 
       color: #323334;
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       font-style: normal;
       font-weight: 700;
       line-height: normal;
@@ -88,7 +88,22 @@
       li {
         width: 15px;
         height: 15px;
-        background-color: black;
+
+        button {
+          width: 15px;
+          height: 15px;
+
+          margin: 0;
+          padding: 0;
+
+          background: none;
+          border: none;
+
+          img {
+            width: 15px;
+            height: 15px;
+          }
+        }
       }
     }
     p {

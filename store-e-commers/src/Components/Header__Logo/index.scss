@@ -11,9 +11,11 @@
   width: auto;
   height: auto;
 
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  a {
+    color: #323334;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
 }

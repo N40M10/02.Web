@@ -1,6 +1,7 @@
 import top_rating_01 from '@images/topRating01.png'
 import top_rating_02 from '@images/topRating02.png'
 import top_rating_03 from '@images/topRating03.png'
+import iconStar from '@icons/star.svg'
 import './index.scss'
 
 const Home__TopSale = () => {
@@ -23,11 +24,11 @@ const Home__TopSale = () => {
             Tray with Foot
           </h3>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
           </ul>
           <p>
             61$
@@ -42,14 +43,14 @@ const Home__TopSale = () => {
 
         <div class="home__topsale__txt">
           <h3>
-            Tray with Foot
+            Small Bamboo Box
           </h3>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
           </ul>
           <p>
             61$
@@ -64,14 +65,14 @@ const Home__TopSale = () => {
 
         <div class="home__topsale__txt">
           <h3>
-            Tray with Foot
+            Glazed Stoneware Plate
           </h3>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
+            <li><button type="button"><img src="${iconStar}" alt="icon star" /></button></li>
           </ul>
           <p>
             61$

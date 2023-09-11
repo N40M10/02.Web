@@ -20,6 +20,7 @@ module.exports = {
         alias: {
         '@images': path.resolve(__dirname, 'src/Assets/images/'),
         '@components': path.resolve(__dirname, 'src/Components/'),
+        '@icons': path.resolve(__dirname, 'src/Assets/icons'),
         }
     },
     module: {

@@ -1,4 +1,7 @@
-import Header__Logo from '../Header__Logo'
+import Header__Logo from '@components/Header__Logo'
+import iconUser from '@icons/user.svg'
+import iconBag from '@icons/bag.svg'
+import iconMenu from '@icons/menu.svg'
 import './index.scss'
 
 const NavTop = () => {
@@ -7,13 +10,13 @@ const NavTop = () => {
     ${Header__Logo()}
     <div class="header__buttonlist">
       <a href="">
-        <i class="">x</i>
+        <img src="${iconUser}" alt="iconUser" />
       </a>
       <a href="">
-        <i class="">x</i>
+        <img src="${iconBag}" alt="iconBag" />
       </a>
       <a href="">
-        <i class="">x</i>
+        <img src="${iconMenu}" alt="iconMenu" />
       </a>
     </div>
   </nav>
