@@ -1,0 +1,9 @@
+#main {
+  width: 100%;
+  height: auto;
+
+  display: grid;
+  grid-template-columns: 100%;
+  place-content: center;
+  place-items: center;
+}

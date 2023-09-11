@@ -1,0 +1,19 @@
+.header__logo__container {
+  width: auto;
+  height: 20;
+
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.header__logo {
+  width: auto;
+  height: auto;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

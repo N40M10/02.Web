@@ -1,0 +1,67 @@
+.home__banner {
+  width: 100%;
+  height: 204px;
+
+  position: relative;
+
+  .banner__img__container {
+    width: 100%;
+    height: 204px;
+
+    picture {
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+      object-position: center;
+
+      source, img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+  }
+
+  .banner__title__container {
+    width: 192px;
+    height: 140px;
+
+    display: grid;
+    grid-template-columns: 100%;
+    place-content: center;
+    place-items: center;
+    row-gap: 28px;
+
+    position: absolute;
+    top: 16%;
+    left: 8%;
+
+    background: rgba(255, 255, 255, 0.90);
+
+    h3 {
+      color: #323334;
+      font-size: 2.0rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    button {
+      width: 124px;
+      height: 48px;
+      flex-shrink: 0;
+
+      color: #323334;
+      font-size: 1.4;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+
+      border: 1px solid #323334;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.nav__top {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  justify-items: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: auto;
+
+  padding: 20px 14px;
+}
+
+.header__buttonlist {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  justify-items: space-between;
+  align-items: center;
+
+  width: 80px;
+  height: 20px;
+
+  a {
+    width: 14px;
+    height: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    justify-items: space-between;
+    align-items: center;
+
+    background-color: black;
+  }
+}
