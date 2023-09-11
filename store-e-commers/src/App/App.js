@@ -8,6 +8,7 @@ import Error404 from '@components/Error404'
 
 import './reset.scss'
 import './fonts.scss'
+import './basicSet.scss'
 import './App.scss'
 
 const getHash = () => location.hash.replace('#', '/').toLocaleLowerCase() || '/'
