@@ -49,6 +49,13 @@ Para el uso de store-e-commers solo necesitas clonar el repositorio y dentro de 
     - Compilacion en modo produccion
         - [/storage-e-ecommers/] $ npm run build
 
+Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
+
+#### Screen shots
+![alt text](https://github.com/N40M10/02.Web/blob/main/src/Assets/screenshot/MobileDesing.png?raw=true)
+![alt text](https://github.com/N40M10/02.Web/blob/main/src/Assets/screenshot/MiddleDesing-BrakePoint.png?raw=true)
+![alt text](https://github.com/N40M10/02.Web/blob/main/src/Assets/screenshot/DesktopDesing.png?raw=true)
+
 
 ### ScriptsForEnvs
 Scripts para crear proyectos en javascript vanilla y reactJS.
