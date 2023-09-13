@@ -33,7 +33,7 @@ module.exports = {
                 }
             },
             {
-                test: /\.(css|s[ac]ss$/i,
+                test: /\.css|.s[ac]ss$/i,
                 use: [MiniCssExtractPlugin.loader,
                     'css-loader',
                     'sass-loader'
@@ -42,6 +42,9 @@ module.exports = {
             {
                 test: /\.png/,
                 type: 'asset/resource'
+            },
+            {   test: /\.svg$/,
+                type: 'asset/inline',
             },
             {
                 test: /\.(woff|woff2)$/,
