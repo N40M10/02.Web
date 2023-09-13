@@ -1,67 +1,67 @@
 .nav__bottom {
-  width: 100%;
-  height: auto;
+  display: none;
+}
 
-  display: grid;
-  grid-template-columns: 100%;
-  place-content: center;
-  place-items: center;
-
-  color: #323334;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-
-  ul {
+@media (min-width: 720px) {
+  .nav__bottom {
     width: 100%;
     height: auto;
 
-    padding: 16px 0 8px 0;
+    display: grid;
+    grid-template-columns: 100%;
+    place-content: center;
+    place-items: center;
 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
-    align-content: center;
-    column-gap: 26%;
+    color: #323334;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 
-    li {
-      width: auto;
+    ul {
+      width: 100%;
       height: auto;
-      display: block;
+
+      padding: 16px 0 8px 0;
 
       display: flex;
-      align-items: center;
-      column-gap: 2px;
+      justify-content: center;
+      align-content: center;
+      justify-items: center;
+      align-content: center;
+      column-gap: 24%;
 
-      text-align: center;
-      line-height: auto;
+      li {
+        width: fit-content;
+        height: fit-content;
+        display: block;
 
-      img {
-        min-width: 18px;
-        min-height: 18px;
+        display: flex;
+        align-items: center;
+        gap: 0 8px;
 
-        background: black;
-      }
+        text-align: center;
+        line-height: auto;
 
-      p {
-        width: auto;
-        height: auto;
+        img {
+          min-width: 14px;
+          min-height: 14px;
+          width: 14px;
+          height: 14px;
+        }
 
-        color: rgba(0, 0, 0, 0.50);
-        font-size: 0.8rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
+        p {
+          width: auto;
+          height: auto;
 
+          color: rgba(0, 0, 0, 0.50);
+          font-size: 0.8rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+
+        }
       }
     }
-  }
-}
-
-@media (max-width: 719px) {
-  .nav__bottom {
-    display: none;
   }
 }

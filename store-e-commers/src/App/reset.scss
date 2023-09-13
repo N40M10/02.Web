@@ -24,7 +24,7 @@ time, mark, audio, video {
     outline:0;
     font-size: 100%;
     vertical-align:baseline;
-    background:transparent;
+    background:none;
 }
 
 body {
@@ -112,4 +112,12 @@ ul, li {
 
 a {
     text-decoration: none;
+}
+
+button {
+    background: none;
+    border: none;
+
+    margin: 0;
+    padding: 0;
 }

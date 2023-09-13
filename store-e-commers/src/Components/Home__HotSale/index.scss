@@ -2,54 +2,62 @@
   width: 100%;
   height: auto;
 
-  padding: 50px 0 20px 0;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+
+  padding: 14% 6%;;
 
   h2 {
-    margin: 0 0 0 18px;
-
-    font-size: 2.2rem;
+    color: #323334;
+    font-size: 2.0rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
   }
-}
 
-.hotsale__collection__container {
-  width: 100%;
-  min-height: 260px;
+  .hotsale__collection__container {
+    width: 100%;
+    min-height: 270px;
 
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  column-gap: 28px;
+    margin: 6% 0 32% 0;
 
-  overflow-x: scroll;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    justify-items: flex-start;
+    align-items: stretch;
+    gap: 0 24px;
 
-  padding: 18px 20px 120px 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 
-  .collection__item {
-    min-width: 180px;
-    height: 260px;
-
-    position: relative;
-    scroll-snap-align: center;
-
-    article {
-      width: 100%;
-      height: 258px;
+    .collection__item {
+      min-width: 160px;
+      height: fit-content;
 
       position: relative;
+      scroll-snap-align: center;
+
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: auto;
+      justify-content: stretch;
+      align-content: end;
+      justify-items: stretch;
+      align-items: end;
 
       picture {
         width: 100%;
-        height: 100%;
+        height: 260px;
 
         source, img {
           width: 100%;
-          height: 100%;
+          height: 260px;
 
           object-fit: cover;
           object-position: center;
@@ -58,9 +66,12 @@
 
       div {
         width: 100%;
-        height: 70px;
+        height: fit-content;
+        padding: 8px;
 
-        padding: 12px 14px 14px 14px;
+        display: grid;
+        grid-template-columns: 100;
+        grid-template-rows: auto;
 
         position: absolute;
         bottom: 0;
@@ -70,26 +81,36 @@
 
         overflow: hidden;
 
-        background-color: rgba(183, 183, 154, 0.60);
+        background: rgba(183, 183, 154, 0.60);
 
         p:first-child {
           width: 100%;
-          height: 20px;
+          height: fit-content;
 
-          color: #FFF;
-          font-size: 1.3rem;
+          color: #fff;
+          font-size: 1.4rem;
           font-style: normal;
           font-weight: 700;
           line-height: normal;
         }
 
+        ul {
+          display: none;
+
+          li {
+            display: none;
+
+            img {
+              display: none;
+            }
+          }
+        }
+
         p:last-child {
           width: 100%;
-          height: 20px;
+          height: fit-content;
 
-          margin: 8px 0 0 0;
-
-          color: #FFF;
+          color: #fff;
           font-size: 1.6rem;
           font-style: normal;
           font-weight: 700;
@@ -98,82 +119,329 @@
       }
     }
   }
-}
 
-.hotsale__favorites__container {
-  width: 100%;
-  height: 204px;
-
-}
-
-.favorites__item {
-  width: 100%;
-  height: 100%;
-
-  display: grid;
-  grid-template-columns: 50% 50%;
-  place-content: center;
-  place-items: center;
-
-  background: #FAFAFA;
-
-  .slide__img {
-    width: 204px;
-    height: 204px;
+  .hotsale__favorites__container {
+    width: 100%;
+    height: auto;
 
     display: grid;
     grid-template-columns: 100%;
-    place-content: center;
-    place-items: center;
+    grid-template-rows: auto;
+    gap: 0 0;
 
-    padding: 32px;
+    .favorites__item {
+      width: 100%;
+      height: 200px;
 
-    picture {
+      padding: 0;
+
+      display: grid;
+      grid-template-columns: 55% 45%;
+      grid-template-rows: auto;
+      justify-content: center;
+      align-content: center;
+      justify-items: center;
+      align-items: center;
+
+      &:first-child {
+        background: #FAFAFA;
+      }
+
+      &:last-child {
+        display: none;
+      }
+
+      picture {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        align-content: center;
+        justify-items: flex-end;
+        align-items: center;
+
+        source, img {
+          width: 100%;
+          height: 100%;
+
+          padding: 4px;
+
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+
+      div {
+        width: 100%;
+        height: auto;
+
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        gap: 20px 0;
+
+        h3 {
+          width: 90%;
+          height: fit-content;
+
+          color: #323334;
+          font-size: 1.6rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+
+        button {
+          width: 100%;
+          height: fit-content;
+
+          width: 100px;
+          height: 42px;
+          flex-shrink: 0;
+
+          color: #323334;
+          font-size: 1.0rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+
+          border: 1px solid #323334;
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 720px) {
+
+  .hotsale {
+    width: 100%;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+
+    padding: 2% 4%;
+
+    h2 {
+      display: none;
+    }
+
+    .hotsale__collection__container {
+      width: 100%;
+      min-height: fit-content;
+
+      grid-row-end: 4;
+
+      margin: 25px 0 30px 0;
+
+      display: grid;
+      grid-template-columns: repeat(4, 24%);
+      grid-template-rows: auto;
+      gap: 20px 1.25%;
+
+      overflow: hidden;
+      overscroll-behavior-x: none;
+      scroll-snap-type: none;
+
+      .collection__item {
+        width: 100%;
+        height: auto;
+
+        position: static;
+        scroll-snap-align: none;
+
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        justify-content: stretch;
+        align-content: end;
+        justify-items: stretch;
+        align-items: end;
+
+        picture {
+          width: 100%;
+          height: auto;
+
+          source, img {
+            width: 100%;
+            height: 240px;
+
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+
+        div {
+          width: 100%;
+          height: fit-content;
+
+          padding: 8px 0 0 0;
+
+          display: grid;
+          grid-template-columns: 100;
+          grid-template-rows: auto;
+
+          position: static;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          flex-shrink: 0;
+
+          overflow: hidden;
+
+          background: #fff;
+
+          p:first-child {
+            width: 100%;
+            height: auto;
+
+            color: #323334;
+            font-size: 1.4rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+
+          ul {
+            display: flex;
+            width: 100%;
+            height: fit-content;
+
+            padding: 4px 0;
+
+            flex-flow: row nowrap;
+            gap: 0 2px;
+
+            li {
+              display: flex;
+              width: 15px;
+              height: 15px;
+
+              padding: 0;
+
+              img {
+                display: flex;
+                width: 15px;
+                height: 15px;
+
+                object-fit: cover;
+                object-position: center;
+              }
+            }
+          }
+
+          p:last-child {
+            width: 100%;
+            height: auto;
+
+            color: #323334;
+            font-size: 1.6rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+        }
+      }
+    }
+
+    .hotsale__favorites__container {
       width: 100%;
       height: auto;
 
-      img {
+      display: grid;
+      grid-template-columns: repeat(2, 50%);
+      grid-template-rows: auto;
+      gap: 0 2%;
+
+      .favorites__item {
         width: 100%;
-        height: auto;
+        height: 200px;
+
+        padding: 20px;
+
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: auto;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+
+        &:first-child {
+          background: #FAFAFA;
+        }
+
+        &:last-child {
+          display: grid;
+          background: #EAE9E7;
+        }
+
+        picture {
+          width: 100%;
+          height: 100%;
+
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: flex-end;
+          align-content: center;
+          justify-items: flex-end;
+          align-items: center;
+
+          source, img {
+            width: 100%;
+            height: 100%;
+
+            padding: 4px;
+
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+
+        div {
+          width: 100%;
+          height: auto;
+
+          display: grid;
+          grid-template-columns: 100%;
+          grid-template-rows: auto;
+          gap: 20px 0;
+
+          h3 {
+            width: 100%;
+            height: fit-content;
+
+            color: #323334;
+            font-size: 1.4rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+
+          button {
+            width: 100%;
+            height: fit-content;
+
+            width: 100px;
+            height: 32px;
+            flex-shrink: 0;
+
+            color: #323334;
+            font-size: 1.0rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+            border: 1px solid #323334;
+          }
+        }
       }
     }
   }
 
-  .slide__txt_container {
-    width: 100%;
-    height: 290px;
-
-    display: grid;
-    grid-template-columns: 100%;
-    justify-content: start;
-    align-content: center;
-    justify-items: start;
-    align-items: center;
-
-    .slide__title {
-      margin: 16px 0 24px 0;
-
-      color: #323334;
-      font-size: 1.8rem;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-    }
-
-    .slide__button {
-      width: 124px;
-      height: 48px;
-      flex-shrink: 0;
-
-      text-align: center;
-      font-size: 1.4rem;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      color: #323334;
-
-      background-color: transparent;
-      border: 1px solid #323334;
-    }
-  }
 }
