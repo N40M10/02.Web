@@ -51,10 +51,19 @@ Para el uso de store-e-commers solo necesitas clonar el repositorio y dentro de 
 
 Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
 
-#### Screen shots
-![Screenshot MobileDesing](https://github.com/N40M10/02.Web/blob/main/store-e-commers/src/Assets/screenshot/DesktopDesing.png)
+#### Screenshot
+
+##### Mobile Desing
+![Screenshot MobileDesing](https://github.com/N40M10/02.Web/blob/main/store-e-commers/src/Assets/screenshot/MobileDesing.png)
+
+##### Break Point
 ![Screenshot BrakePoint](https://github.com/N40M10/02.Web/blob/main/store-e-commers/src/Assets/screenshot/MiddleDesing-BrakePoint.png?raw=true)
+
+##### Desktop Desing
 ![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/store-e-commers/src/Assets/screenshot/DesktopDesing.png?raw=true)
+
+#### Deploy
+Pendiente.
 
 
 ### ScriptsForEnvs
