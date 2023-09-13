@@ -28,14 +28,13 @@ La logica seguida es:
         - Se crean los modulos en 'src/Components'.
 
     - Se inicia con la maquetacion.
-        - Algunos elementos no seran terminados al agregar interactividad.
         - Se inicia con Mobile first(320*480).
 
     - Se agregara interactividad mediante JS.
         - Pendiente
 
     - Se desplegara mediante gitPages
-        - Pendiente
+        - https://n40m10.github.io/store-e-commers/
 
 #### Uso de storage-e-commers
 Para el uso de store-e-commers solo necesitas clonar el repositorio y dentro de storage-e-commers ejecutar los scripts:
@@ -61,9 +60,6 @@ Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
 
 ##### Desktop Desing
 ![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/store-e-commers/src/Assets/screenshot/DesktopDesing.png?raw=true)
-
-#### Deploy
-    - https://n40m10.github.io/store-e-commers/
 
 
 ### ScriptsForEnvs
