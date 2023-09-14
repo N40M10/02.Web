@@ -5,6 +5,67 @@ Este repositorio esta construido con muestras, no se recomienda su uso a menos q
 
 En caso de uso lee primero el archivo a usar y perzonalizalo a tus circunstancias, existen partes creadas con este objetivo, por lo que si no se personaliza es posible que no funcione.
 
+### search-images
+Una muestra de una web app, con el objetivo de mostrar mi conocimiento de apiREST, se utiliza la api de pixabay.
+
+    - https://pixabay.com/api/docs/
+
+
+La logica seguida es:
+
+    - Crear el entorno de trabajo.
+        - Se utiliza webpack-js-vanilla.sh para crear el entorno de trabajo.
+        - Se limpia y modifica en base a las necesidades del proyecto.
+        - El entorno de trabajo cuenta con:
+            - Compilacion,
+            - Servidor de desarrollo,
+            - Permite la perzonalizacion de fuentes,
+            - Alias...
+
+    - Se define la arquitectura.
+        - Modulos, JS, SCSS, HTML, Roboto.
+        - Se toma 'src/index.js' como la entrada de la app y la entrada para el empaquetador(webpack).
+        - Se realiza el router y la composicion en 'src/App'.
+        - Se crean los modulos en 'src/Components'.
+
+    - Se inicia con la maquetacion.
+        - Se inicia con Mobile first(320*480).
+
+    - Se agregara interactividad mediante JS.
+        - Pendiente
+
+    - Se desplegara mediante gitPages
+        - Pendiente
+
+#### Uso de search-images
+Para el uso de store-e-commers solo necesitas clonar el repositorio y dentro de storage-e-commers ejecutar los scripts:
+
+    - Iniciar servidor de desarrollo
+        - [/storage-e-ecommers/] $ npm run start
+
+    - Compilacion en modo desarrollo
+        - [/storage-e-ecommers/] $ npm run dev
+
+    - Compilacion en modo produccion
+        - [/storage-e-ecommers/] $ npm run build
+
+Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
+
+#### Screenshot
+
+##### Mobile Desing
+pendiente
+![Screenshot MobileDesing]()
+
+##### Break Point
+pendiente
+![Screenshot BrakePoint]()
+
+##### Desktop Desing
+pendiente
+![Screenshot DesktopDesing]()
+
+
 ### store-e-commers
 Una muestra de una app de comercio, se utiliza un diseño de figma como base.
 
