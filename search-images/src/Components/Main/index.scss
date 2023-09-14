@@ -1,0 +1,18 @@
+.main {
+  width: 100%;
+  height: fit-content;
+
+  padding: 0 8vw 4vh 8vw;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2vh 0;
+
+  img {
+    width: 100%;
+    height: fit-content;
+
+    object-fit: cover;
+    object-position: center;
+  }
+}
