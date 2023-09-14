@@ -1,5 +1,6 @@
 import Header from '@components/Header'
 import Main from '@components/Main'
+import Images from '@components/Images'
 import Footer from '@components/Footer'
 import Error404 from '@components/Error404'
 
@@ -14,26 +15,18 @@ const urls = {
     '/': Main
 }
 
-const returnHome = () => {
-    const view = `
-        <a href="/" class="returnHome">
-            Regresar a Home
-        </a>
-    `
-    return view
-}
-
 const App = () => {
     const app = document.querySelector('#app')
     app.innerHTML = ''
 
     const hash = getHash()
-    const renderHeader = urls[hash] ? Header() : returnHome()
     const render = urls[hash] ? urls[hash] : Error404
 
-    app.insertAdjacentHTML('beforeend', renderHeader)
+    app.insertAdjacentHTML('beforeend', Header())
     app.insertAdjacentHTML('beforeend', render())
     app.insertAdjacentHTML('beforeend', Footer())
+
+    Images()
 }
 
 export default App

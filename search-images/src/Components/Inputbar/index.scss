@@ -1,0 +1,26 @@
+.inputbar {
+  width: 100vw;
+  height: fit-content;
+
+  padding: 2vh 8vw;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+
+  input {
+    width: 100vw;
+    height: fit-content;
+
+    padding: 12px;
+
+    border-radius: 8px;
+    border: 1px solid black;
+
+    color: #000;
+    font-size: 1.6rem;
+  }
+}

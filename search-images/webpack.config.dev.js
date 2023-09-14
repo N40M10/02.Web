@@ -19,7 +19,8 @@ module.exports = {
         extensions: ['.js'],
         alias: {
         '@images': path.resolve(__dirname, 'src/Assets/images/'),
-        '@components': path.resolve(__dirname, 'src/Components/')
+        '@components': path.resolve(__dirname, 'src/Components/'),
+        '@utils': path.resolve(__dirname, 'src/Utils/')
         }
     },
     module: {

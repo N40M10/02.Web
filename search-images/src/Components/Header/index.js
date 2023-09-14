@@ -1,9 +1,12 @@
+import Inputbar from '../Inputbar'
+import Navbar from '../Navbar'
 import './index.scss'
 
 const Header = () => {
   const view = `
   <header class="header">
-    <input placeholder="Buscador de imagenes: Escribe tu busqueda" />
+    ${Navbar()}
+    ${Inputbar()}
   </header>
   `
   return view

@@ -1,23 +1,12 @@
 .header {
   width: 100vw;
-  height: 40px;
-
-  padding: 8vh 8vw;
+  height: fit-content;
+  padding: 4vh 8vw 2vh 8vw;
 
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-content: center;
   justify-items: center;
   align-items: center;
-
-  input {
-    width: 100vw;
-    height: 40px;
-
-    padding: 8px;
-
-    border-radius: 8px;
-    border: 1px solid black;
-  }
 }

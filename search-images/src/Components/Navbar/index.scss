@@ -1,0 +1,41 @@
+.navbar {
+  width: 100vw;
+  height: fit-content;
+
+  padding: 0 8vw;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+
+  nav {
+    width: 100vw;
+    height: fit-content;
+
+    display: block;
+
+    menu {
+      width: 100%;
+      height: fit-content;
+
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-content: center;
+      justify-items: center;
+      align-items: center;
+
+      a {
+        padding: 16px 36px;
+
+        color: #000;
+        font-size: 1.8rem;
+        border: 1px solid black;
+      }
+    }
+  }
+
+}
