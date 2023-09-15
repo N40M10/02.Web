@@ -3,7 +3,7 @@ import './index.scss'
 const Inputbar = () => {
   const view = `
   <header class="inputbar">
-    <input placeholder="Buscador de imagenes: Escribe tu busqueda" />
+    <input type="text" placeholder="Buscador de imagenes: Escribe tu busqueda" />
   </header>
   `
   return view

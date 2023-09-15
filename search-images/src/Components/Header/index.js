@@ -1,5 +1,6 @@
-import Inputbar from '../Inputbar'
-import Navbar from '../Navbar'
+import Inputbar from '@components/Inputbar'
+import Navbar from '@components/Navbar'
+
 import './index.scss'
 
 const Header = () => {

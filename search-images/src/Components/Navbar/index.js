@@ -5,8 +5,8 @@ const Navbar = () => {
   <header class="navbar">
     <nav>
       <menu>
-        <a href="">Images</a>
-        <a href="">Videos</a>
+        <a href="#images">Images</a>
+        <a href="#videos">Videos</a>
       </menu>
     </nav>
   </header>

@@ -10,10 +10,9 @@ const setElement = (urlImage, webImg, idImg) => {
   return view
 }
 
-const isData = async () => {
-  const response = await getData()
+const isData = async (search, per, page) => {
+  const response = await getData(search, per, page)
   const data = await response.json()
-  console.log(data)
   const imgList = []
   data.hits.map(item => {
     imgList.push(setElement(item.largeImageURL, item.webformatURL, item.id))
@@ -22,9 +21,10 @@ const isData = async () => {
   return imgList
 }
 
-const Images = async () => {
+const Images = async (search, per, page) => {
   const main = document.querySelector('.main')
-  const imgList = await isData()
+  main.innerHTML = ''
+  const imgList = await isData(search, per, page)
   main.insertAdjacentHTML('beforeend', [...imgList])
 }
 

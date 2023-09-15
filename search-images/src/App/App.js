@@ -4,6 +4,8 @@ import Images from '@components/Images'
 import Footer from '@components/Footer'
 import Error404 from '@components/Error404'
 
+import getInput from '@utils/getInput'
+
 import './reset.scss'
 import './fonts.scss'
 import './basicSet.scss'
@@ -12,7 +14,9 @@ import './App.scss'
 const getHash = () => location.hash.replace('#', '/').toLocaleLowerCase() || '/'
 
 const urls = {
-    '/': Main
+    '/': Main,
+    '/images': Main,
+    '/videos': Main
 }
 
 const App = () => {
@@ -27,6 +31,8 @@ const App = () => {
     app.insertAdjacentHTML('beforeend', Footer())
 
     Images()
+
+    getInput()
 }
 
 export default App
