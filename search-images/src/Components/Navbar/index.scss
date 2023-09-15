@@ -1,8 +1,9 @@
 .navbar {
-  width: 100vw;
+  width: 100%;
   height: fit-content;
 
-  padding: 0 8vw;
+  padding: 0 4%;
+  margin: 40px 0 0 0;
 
   display: flex;
   flex-flow: row nowrap;
@@ -12,10 +13,10 @@
   align-items: center;
 
   nav {
-    width: 100vw;
+    width: 100%;
     height: fit-content;
 
-    display: block;
+    display: flex;
 
     menu {
       width: 100%;

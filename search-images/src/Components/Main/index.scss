@@ -2,17 +2,10 @@
   width: 100%;
   height: fit-content;
 
-  padding: 0 8vw;
+  padding: 0 4%;
 
-  display: flex;
-  flex-flow: column nowrap;
-  gap: 2vh 0;
-
-  img {
-    width: 100%;
-    height: fit-content;
-
-    object-fit: cover;
-    object-position: center;
-  }
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  gap: 4px 0;
 }

@@ -2,7 +2,7 @@ const myApiKey = process.env.API_KEY
 const myApiLink = process.env.API_LINK
 const myApi = `${myApiLink}/?key=${myApiKey}`
 
-const getData = async (search = 'Linux', per = 9, page = 1) => {
+const getData = async (search = 'Linux', per = 20, page = 1) => {
   const mySearch = `&q=${search}`
   const myPages = `&per_page=${per}&page=${page}`
 

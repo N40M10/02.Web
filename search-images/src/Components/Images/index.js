@@ -1,31 +1,47 @@
-import getData from '../../Utils/Api'
+import getData from '@utils/getData'
 import './index.scss'
 
-const setElement = (urlImage, webImg, idImg) => {
-  const view = `
-  <a href="${urlImage}" id="${idImg}">
-    <img src="${webImg}" alt="imagen ${idImg}" />
-  </a>
-  `
-  return view
-}
-
 const isData = async (search, per, page) => {
-  const response = await getData(search, per, page)
-  const data = await response.json()
-  const imgList = []
-  data.hits.map(item => {
-    imgList.push(setElement(item.largeImageURL, item.webformatURL, item.id))
-  })
-
-  return imgList
+  try {
+    const response = await getData(search, per, page)
+    const data = await response.json()
+    return data
+  } catch (error) {
+    return error
+  }
 }
 
-const Images = async (search, per, page) => {
-  const main = document.querySelector('.main')
-  main.innerHTML = ''
-  const imgList = await isData(search, per, page)
-  main.insertAdjacentHTML('beforeend', [...imgList])
+const setElements = async (search, per, page) => {
+  const data = await isData(search, per, page)
+  const dataList = []
+  data.hits.forEach(item => {
+    const view = `
+      <a href="${item.largeImageURL}" id="${item.id}">
+        <img src="${item.webformatURL}" alt="imagen ${item.id}" />
+      </a>
+    `
+    dataList.push(view)
+  });
+  return dataList
+}
+
+const setBox = async (search, per, page) => {
+  const dataList = await setElements(search, per, page)
+
+  const container = document.createElement('section')
+  container.insertAdjacentHTML('beforeend', [...dataList])
+
+  const main__images = document.querySelector('.main__images')
+  main__images.innerHTML = ''
+  main__images.insertAdjacentElement('beforeend', container)
+  main__images.innerHTML = main__images.innerHTML.replace(/,/g, '')
+}
+
+const Images = (search, per, page) => {
+  setBox(search, per, page)
+
+  const view = `<div class="main__images"></div>`
+  return view
 }
 
 export default Images

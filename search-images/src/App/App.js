@@ -4,6 +4,7 @@ import Images from '@components/Images'
 import Footer from '@components/Footer'
 import Error404 from '@components/Error404'
 
+import setContent from '@utils/setContent'
 import getInput from '@utils/getInput'
 
 import './reset.scss'
@@ -30,8 +31,7 @@ const App = () => {
     app.insertAdjacentHTML('beforeend', render())
     app.insertAdjacentHTML('beforeend', Footer())
 
-    Images()
-
+    setContent()
     getInput()
 }
 

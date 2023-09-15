@@ -1,0 +1,41 @@
+.main__images {
+  width: 100%;
+  height: auto;
+
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+  align-content: center;
+
+  section {
+    width: 100%;
+    height: auto;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 16px;
+
+    a {
+      width: 100%;
+      height: auto;
+
+      display: grid;
+      place-items: center;
+
+      background: lightgrey;
+
+      img {
+        width: 100%;
+        height: auto;
+
+        display: grid;
+
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+}
