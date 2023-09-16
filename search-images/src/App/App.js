@@ -1,6 +1,6 @@
 import Header from '@components/Header'
-import Main from '@components/Main'
-import Images from '@components/Images'
+import Main__Images from '@components/Main__Images'
+import Main__Videos from '@components/Main__Videos'
 import Footer from '@components/Footer'
 import Error404 from '@components/Error404'
 
@@ -15,9 +15,9 @@ import './App.scss'
 const getHash = () => location.hash.replace('#', '/').toLocaleLowerCase() || '/'
 
 const urls = {
-    '/': Main,
-    '/images': Main,
-    '/videos': Main
+    '/': Main__Images,
+    '/images': Main__Images,
+    '/videos': Main__Videos
 }
 
 const App = () => {
