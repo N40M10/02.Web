@@ -35,7 +35,7 @@ La logica seguida es:
         - Pendiente
 
     - Se desplegara mediante gitPages
-        - Pendiente
+        - https://n40m10.github.io/search-images/#videos
 
 #### Uso de search-images
 Para el uso de store-e-commers solo necesitas clonar el repositorio y dentro de storage-e-commers ejecutar los scripts:
@@ -53,17 +53,23 @@ Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
 
 #### Screenshot
 
-##### Mobile Desing
-pendiente
-![Screenshot MobileDesing]()
+##### Image Mobile Desing
+![Screenshot MobileDesing](https://github.com/N40M10/02.Web/blob/main/search-images/src/Assets/screenShot/ImageMobileDesing.png)
 
-##### Break Point
-pendiente
-![Screenshot BrakePoint]()
+##### Image Middle Desing
+![Screenshot BrakePoint](https://github.com/N40M10/02.Web/blob/main/search-images/src/Assets/screenShot/ImageMiddleDesing.png)
 
-##### Desktop Desing
-pendiente
-![Screenshot DesktopDesing]()
+##### Image Desktop Desing
+![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/search-images/src/Assets/screenShot/ImageDesktopDesing.png)
+
+##### Video Mobile Desing
+![Screenshot MobileDesing](https://github.com/N40M10/02.Web/blob/main/search-images/src/Assets/screenShot/VideoMobileDesing.png)
+
+##### Video Middle Desing
+![Screenshot BrakePoint](https://github.com/N40M10/02.Web/blob/main/search-images/src/Assets/screenShot/VideoMiddleDesing.png)
+
+##### Video Desktop Desing
+![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/search-images/src/Assets/screenShot/VideoDesktopDesing.png)
 
 
 ### store-e-commers
@@ -114,13 +120,16 @@ Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
 #### Screenshot
 
 ##### Mobile Desing
+pendiente
 ![Screenshot MobileDesing](https://github.com/N40M10/02.Web/blob/main/store-e-commers/src/Assets/screenshot/MobileDesing.png)
 
 ##### Break Point
-![Screenshot BrakePoint](https://github.com/N40M10/02.Web/blob/main/store-e-commers/src/Assets/screenshot/MiddleDesing-BrakePoint.png?raw=true)
+pendiente
+![Screenshot BrakePoint](https://github.com/N40M10/02.Web/blob/main/store-e-commers/src/Assets/screenshot/MiddleDesing-BrakePoint.png)
 
 ##### Desktop Desing
-![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/store-e-commers/src/Assets/screenshot/DesktopDesing.png?raw=true)
+pendiente
+![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/store-e-commers/src/Assets/screenshot/DesktopDesing.png)
 
 
 ### ScriptsForEnvs
