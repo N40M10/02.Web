@@ -120,15 +120,12 @@ Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
 #### Screenshot
 
 ##### Mobile Desing
-pendiente
 ![Screenshot MobileDesing](https://github.com/N40M10/02.Web/blob/main/store-e-commers/src/Assets/screenshot/MobileDesing.png)
 
 ##### Break Point
-pendiente
 ![Screenshot BrakePoint](https://github.com/N40M10/02.Web/blob/main/store-e-commers/src/Assets/screenshot/MiddleDesing-BrakePoint.png)
 
 ##### Desktop Desing
-pendiente
 ![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/store-e-commers/src/Assets/screenshot/DesktopDesing.png)
 
 
