@@ -1,4 +1,4 @@
-.main__images {
+.main__videos {
   width: 100%;
   height: auto;
 
@@ -18,24 +18,18 @@
     grid-template-rows: auto;
     gap: 16px;
 
-    a {
+    video {
       width: 100%;
       height: auto;
 
       display: grid;
+      place-content: center;
       place-items: center;
 
       background: lightgrey;
 
-      img {
-        width: 100%;
-        height: auto;
-
-        display: grid;
-
-        object-fit: cover;
-        object-position: center;
-      }
+      object-fit: cover;
+      object-position: center;
     }
   }
 

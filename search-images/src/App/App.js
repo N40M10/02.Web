@@ -32,6 +32,7 @@ const App = () => {
     app.insertAdjacentHTML('beforeend', Footer())
 
     setContent()
+
     getInput()
 }
 

@@ -1,4 +1,4 @@
-import getData from '@utils/getData'
+import getData from '@utils/getData__videos'
 import './index.scss'
 
 const isData = async (search, per, page) => {
@@ -16,9 +16,10 @@ const setElements = async (search, per, page) => {
   const dataList = []
   data.hits.forEach(item => {
     const view = `
-      <a href="${item.largeImageURL}" id="${item.id}">
-        <img src="${item.webformatURL}" alt="imagen ${item.id}" />
-      </a>
+      <video controls id="${item.id}">
+        <source src="${item.videos.tiny.url}" />
+        Tu navegador no puyede cargar el siguiente video <code></code>
+      </video>
     `
     dataList.push(view)
   });
@@ -31,17 +32,17 @@ const setBox = async (search, per, page) => {
   const container = document.createElement('section')
   container.insertAdjacentHTML('beforeend', [...dataList])
 
-  const main__images = document.querySelector('.main__images')
-  main__images.innerHTML = ''
-  main__images.insertAdjacentElement('beforeend', container)
-  main__images.innerHTML = main__images.innerHTML.replace(/,/g, '')
+  const main__videos = document.querySelector('.main__videos')
+  main__videos.innerHTML = ''
+  main__videos.insertAdjacentElement('beforeend', container)
+  main__videos.innerHTML = main__videos.innerHTML.replace(/,/g, '')
 }
 
-const Images = (search, per, page) => {
+const Videos = (search, per, page) => {
   setBox(search, per, page)
 
-  const view = `<div class="main__images"></div>`
+  const view = `<div class="main__videos"></div>`
   return view
 }
 
-export { Images, setElements }
+export { Videos, setElements }

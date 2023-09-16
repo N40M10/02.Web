@@ -1,10 +1,10 @@
-import  { Images } from '@components/Images'
+import  { Videos } from '@components/Videos'
 import './index.scss'
 
 const Main = () => {
   const view = `
     <main class="main">
-      ${Images()}
+      ${Videos()}
     </main>
   `
   return view
