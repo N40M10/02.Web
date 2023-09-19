@@ -6,6 +6,9 @@ Este repositorio esta construido con muestras, no se recomienda su uso a menos q
 En caso de uso lee primero el archivo a usar y perzonalizalo a tus circunstancias, existen partes creadas con este objetivo, por lo que si no se personaliza es posible que no funcione.
 
 ### search-images
+## [Probar Search images](https://n40m10.github.io/search-images/)
+## [Link to Search images: https://n40m10.github.io/search-images/](https://n40m10.github.io/search-images/)
+
 Una muestra de una web app, con el objetivo de mostrar mi conocimiento de apiREST, se utiliza la api de pixabay.
 
     - https://pixabay.com/api/docs/
@@ -35,6 +38,7 @@ La logica seguida es:
         - Completado
 
     - Se desplegara mediante gitPages
+        - https://n40m10.github.io/search-images/
         - https://n40m10.github.io/search-images/#videos
 
 #### Uso de search-images
@@ -72,7 +76,12 @@ Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
 ![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/search-images/src/Assets/screenShot/VideoDesktopDesing.png)
 
 
+https://n40m10.github.io/store-e-commers/
+
 ### store-e-commers
+## [Probar Store ecommers](https://n40m10.github.io/store-e-commers/)
+## [Link to Store ecommers https://n40m10.github.io/store-e-commers/](https://n40m10.github.io/store-e-commers/)
+
 Una muestra de una app de comercio, se utiliza un diseño de figma como base.
 
     - https://www.figma.com/file/sFxSIY6kO6pjISPSOSdacz/MOODY-STORE-E-COMMERCE-WEB-SITE-(Community)?node-id=1%3A1097&mode=dev
@@ -130,6 +139,9 @@ Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
 
 
 ### todo-list
+## [Probar Todo list](https://n40m10.github.io/todo-list/)
+## [Link to Todo list https://n40m10.github.io/todo-list/](https://n40m10.github.io/todo-list/)
+
 Se crea un todo list como practica, regularmente este tipo de apps es una buena practica para desarrolladores.
 
 La logica seguida es:
