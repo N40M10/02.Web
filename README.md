@@ -129,6 +129,62 @@ Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
 ![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/store-e-commers/src/Assets/screenshot/DesktopDesing.png)
 
 
+### todo-list
+Se crea un todo list como practica, regularmente este tipo de apps es una buena practica para desarrolladores.
+
+La logica seguida es:
+
+    - Crear el entorno de trabajo.
+        - Se utiliza webpack-js-vanilla.sh para crear el entorno de trabajo.
+        - Se limpia y modifica en base a las necesidades del proyecto.
+        - El entorno de trabajo cuenta con:
+            - Compilacion,
+            - Servidor de desarrollo,
+            - Permite la perzonalizacion de fuentes,
+            - Alias...
+
+    - Se define la arquitectura.
+        - Modulos, JS, SCSS, HTML, Noto Sans.
+        - Se toma 'src/index.js' como la entrada de la app y la entrada para el empaquetador(webpack).
+        - Se realiza el router y la composicion en 'src/index.js'.
+
+    - Se inicia con la maquetacion.
+        - Se inicia con el Diseño desktop.
+        - Se inicia con Mobile first(320*480).
+
+    - Se agregara interactividad mediante JS.
+        - Pendiente
+
+    - Se desplegara mediante gitPages
+        - https://n40m10.github.io/todo-list/
+
+#### Uso de todo-list
+Para el uso de store-e-commers solo necesitas clonar el repositorio y dentro de storage-e-commers ejecutar los scripts:
+
+    - Iniciar servidor de desarrollo
+        - [/storage-e-ecommers/] $ npm run start
+
+    - Compilacion en modo desarrollo
+        - [/storage-e-ecommers/] $ npm run dev
+
+    - Compilacion en modo produccion
+        - [/storage-e-ecommers/] $ npm run build
+
+Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
+
+#### Screenshot
+
+##### Mobile Desing
+![Screenshot MobileDesing](https://github.com/N40M10/02.Web/blob/main/todo-list/src/Assets/screenshot/MobileDesing.png)
+
+##### Break Point
+![Screenshot BrakePoint](https://github.com/N40M10/02.Web/blob/main/todo-list/src/Assets/screenshot/BrakePoint.png)
+
+##### Desktop Desing
+![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/todo-list/src/Assets/screenshot/DesktopDesing.png)
+
+
+
 ### ScriptsForEnvs
 Scripts para crear proyectos en javascript vanilla y reactJS.
 
