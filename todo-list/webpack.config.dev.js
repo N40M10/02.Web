@@ -92,7 +92,7 @@ module.exports = {
         watchFiles: ['^[^.]./*$'],
         hot: false,
         liveReload: true,
-        server: 'https',
+        server: 'http',
         port: 3000,
         open: true
     }
