@@ -32,7 +32,7 @@ La logica seguida es:
         - Se inicia con Mobile first(320*480).
 
     - Se agregara interactividad mediante JS.
-        - Pendiente
+        - Completado
 
     - Se desplegara mediante gitPages
         - https://n40m10.github.io/search-images/#videos
@@ -153,7 +153,7 @@ La logica seguida es:
         - Se inicia con Mobile first(320*480).
 
     - Se agregara interactividad mediante JS.
-        - Pendiente
+        - Completado
 
     - Se desplegara mediante gitPages
         - https://n40m10.github.io/todo-list/
@@ -175,13 +175,12 @@ Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
 #### Screenshot
 
 ##### Mobile Desing
-![Screenshot MobileDesing](https://github.com/N40M10/02.Web/blob/main/todo-list/src/Assets/screenshot/MobileDesing.png)
-
+![Screenshot MobileDesing](https://github.com/N40M10/02.Web/blob/main/todo-list/src/Assets/screenShot/MobileDesing.png)
 ##### Break Point
-![Screenshot BrakePoint](https://github.com/N40M10/02.Web/blob/main/todo-list/src/Assets/screenshot/BrakePoint.png)
+![Screenshot BreakPoint ](https://github.com/N40M10/02.Web/blob/main/todo-list/src/Assets/screenShot/BrakePoint.png)
 
 ##### Desktop Desing
-![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/todo-list/src/Assets/screenshot/DesktopDesing.png)
+![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/todo-list/src/Assets/screenShot/DesktopDesing.png)
 
 
 
