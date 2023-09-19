@@ -6,7 +6,7 @@ Este repositorio esta construido con muestras, no se recomienda su uso a menos q
 En caso de uso lee primero el archivo a usar y perzonalizalo a tus circunstancias, existen partes creadas con este objetivo, por lo que si no se personaliza es posible que no funcione.
 
 ### search-images
-[Probar Search images](https://n40m10.github.io/search-images/)
+[Probar Search images](https://n40m10.github.io/search-images/#videos)
 
 Una muestra de una web app, con el objetivo de mostrar mi conocimiento de apiREST, se utiliza la api de pixabay.
 
