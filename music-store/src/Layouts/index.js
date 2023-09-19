@@ -1,9 +1,12 @@
 import React from 'react'
 import LayoutUI from './indexUI'
 
-const Layout = () => {
+const Layout = ({ children }) => {
     return (
-        <LayoutUI />
+        <>
+            <LayoutUI children={children} />
+        </>
+
     )
 }
 

@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+html {
+  width: 100vw;
+  height: auto;
+
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+#app {
+  width: 100%;
+  height: auto;
+
+  margin: 0;
+  padding: 0;
+}
+
+/*
+COLORES
+*/
+
+$primary-color: #AB0433;
+$secondary-color: #FF753A;
+$black-color: #252525;
+$gray-primary-color: #505050;
+$gray-secondary-color: #EAEAEA;
+$white-secondary-color: #EAEAEA;
+$white-primary-color: #FFFFFF;
+
+/*
+FUENTES
+*/
+
+/* @include title-h1 */
+@mixin title--h1 {
+  color: #212121;
+
+  /* H1 */
+  font-family: Noto Sans;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 43.2px */
+}
+
+@mixin title--h2 {
+  color: #212121;
+
+  /* H2 */
+  font-family: Noto Sans;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 38.4px */
+}
+
+@mixin title--h3 {
+  color: #212121;
+
+  /* H3 */
+  font-family: Noto Sans;
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 33.6px */
+}
+
+@mixin title--h4 {
+  color: #212121;
+
+  /* H4 */
+  font-family: Noto Sans;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 31.2px */
+}
+
+@mixin title--h5 {
+  color: #212121;
+
+  /* H5 */
+  font-family: Noto Sans;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 26px */
+}
+
+@mixin title--h6 {
+  color: #212121;
+
+  /* H6 */
+  font-family: Noto Sans;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 23.4px */
+}
+
+@mixin body--text {
+  color: #212121;
+
+  /* Body */
+  font-family: Noto Sans;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+@mixin caption--text {
+  color: #212121;
+
+  /* Caption */
+  font-family: Montserrat;
+  font-size: 1.28rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 17.92px */
+}
+
+@mixin fine--print {
+  color: #212121;
+
+  /* Fine Print */
+  font-family: Montserrat;
+  font-size: 1.024rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 14.336px */
+}

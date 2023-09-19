@@ -1,10 +1,14 @@
 import React from 'react'
-import Layout from '../Layouts/index.js'
-import './App.scss'
+import Routes from '@routes/index'
+
+import './reset.scss';
+import './fonts.scss';
+import './basicSet.scss';
+import './App.scss';
 
 const AppUI = () => {
     return (
-        <Layout />
+        <Routes />
     )
 }
 

@@ -21,12 +21,12 @@ module.exports = {
         alias: {
         '@app': path.resolve(__dirname, 'src/App/'),
         '@images': path.resolve(__dirname, 'src/Assets/images/'),
-        '@components': path.resolve(__dirname, 'src/Components/*/'),
+        '@components': path.resolve(__dirname, 'src/Components/'),
         '@contexts': path.resolve(__dirname, 'src/Context/'),
         '@layouts': path.resolve(__dirname, 'src/Layouts/'),
         '@pages': path.resolve(__dirname, 'src/Pages/'),
-        '@Routes': path.resolve(__dirname, 'src/Routes/'),
-        '@Utils': path.resolve(__dirname, 'src/Utils/'),
+        '@routes': path.resolve(__dirname, 'src/Routes/'),
+        '@utils': path.resolve(__dirname, 'src/Utils/'),
         }
     },
     module: {
