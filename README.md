@@ -12,7 +12,6 @@ Una muestra de una web app, con el objetivo de mostrar mi conocimiento de apiRES
 
     - https://pixabay.com/api/docs/
 
-
 La logica seguida es:
 
     - Crear el entorno de trabajo.
@@ -74,8 +73,6 @@ Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
 ##### Video Desktop Desing
 ![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/search-images/src/Assets/screenShot/VideoDesktopDesing.png)
 
-
-https://n40m10.github.io/store-e-commers/
 
 ### store-e-commers
 [Probar Store ecommers](https://n40m10.github.io/store-e-commers/)
@@ -190,7 +187,6 @@ Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
 
 ##### Desktop Desing
 ![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/todo-list/src/Assets/screenShot/DesktopDesing.png)
-
 
 
 ### ScriptsForEnvs
