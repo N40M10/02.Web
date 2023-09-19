@@ -21,6 +21,7 @@ module.exports = {
         alias: {
         '@app': path.resolve(__dirname, 'src/App/'),
         '@images': path.resolve(__dirname, 'src/Assets/images/'),
+        '@icons': path.resolve(__dirname, 'src/Assets/icons/'),
         '@components': path.resolve(__dirname, 'src/Components/'),
         '@contexts': path.resolve(__dirname, 'src/Context/'),
         '@layouts': path.resolve(__dirname, 'src/Layouts/'),
@@ -54,7 +55,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.png/,
+                test: /\.(png|svg)$/,
                 type: 'asset/resource'
             },
             {

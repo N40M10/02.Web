@@ -1,12 +1,20 @@
 import React from "react";
+import Footer__Linktree from "@components/Footer__Linktree";
+import Footer__Logo from '@components/Footer__Logo'
+import Footer__Rights from "@components/Footer__Rights"
+
 import './index.scss'
 
-const Footer = () => {
+const FooterUI = () => {
     return (
       <>
-        <h1>Este es el footer</h1>
+        <footer className="footer">
+          <Footer__Linktree />
+          <Footer__Logo />
+          <Footer__Rights />
+        </footer>
       </>
     );
 };
 
-export default Footer;
+export default FooterUI;

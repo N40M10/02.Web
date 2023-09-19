@@ -1,0 +1,37 @@
+@import '@app/basicSet.scss';
+
+.footer__linktree {
+  width: 100%;
+  height: fit-content;
+
+  padding: 38px 0 0 0;
+
+  display: grid;
+  grid-template: auto / 100%;
+  place-content: center;
+  place-items: center;
+
+  nav {
+    width: 100%;
+    height: fit-content;
+
+    display: grid;
+    grid-template: auto / 100%;
+    place-content: center;
+    place-items: center;
+    gap: 10px 0;
+
+    span {
+      width: 60px;
+    }
+
+    a {
+      width: fit-content;
+      height: fit-content;
+
+      color: $white-primary-color;
+      @include caption--text;
+    }
+
+  }
+}

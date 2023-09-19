@@ -1,0 +1,19 @@
+@import '../../App/basicSet.scss';
+
+.footer__rights {
+  width: 100%;
+  padding: 8px 8px 8px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  color: $white-primary-color;
+  background: $black-color;
+
+  strong {
+    color: $white-primary-color;
+    @include caption--text;
+  }
+}

@@ -1,5 +1,11 @@
 .layout {
-  background: red;
+  width: 100%;
+  height: auto;
+
+  display: grid;
+  grid-template: auto / 100%;
+  place-content: center;
+  place-items: center;
 }
 
 @media (min-width: 1024px) {

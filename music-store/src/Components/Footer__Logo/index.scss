@@ -1,0 +1,34 @@
+@import '../../App/basicSet.scss';
+
+.footer__logo {
+  width: 100%;
+  height: fit-content;
+
+  display: grid;
+  grid-template: auto / 100%;
+  place-content: center;
+  place-items: center;
+
+  nav {
+    width: 100%;
+    height: fit-content;
+
+    padding: 34px 0;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+
+    gap: 0 12px;
+
+    a {
+      width: 22px;
+      height: 15px;
+
+      color: $white-primary-color;
+    }
+  }
+}
