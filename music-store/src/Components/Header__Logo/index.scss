@@ -1,0 +1,60 @@
+@import '@app/basicSet.scss';
+
+.header__logo {
+  width: 152px;
+  height: 24px;
+
+  display: grid;
+  grid-template: auto / 100%;
+
+  a {
+    width: 100%;
+    height: fit-content;
+
+    img {
+      width: 100%;
+      height: fit-content;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__logo {
+    width: 152px;
+    height: 24px;
+
+    display: grid;
+    grid-template: auto / 100%;
+    justify-self: start;
+
+    a {
+      width: 100%;
+      height: fit-content;
+
+      img {
+        width: 100%;
+        height: fit-content;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .header__logo {
+    width: 255px;
+    height: 40px;
+
+    display: grid;
+    grid-template: auto / 100%;
+
+    a {
+      width: inherit;
+      height: inherit;
+
+      img {
+        width: inherit;
+        height: inherit;
+      }
+    }
+  }
+}

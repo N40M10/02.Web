@@ -1,0 +1,47 @@
+@import '@app/basicSet.scss';
+
+.header {
+  width: 100%;
+  height: fit-content;
+
+  padding: 58px 24px 0 24px;
+
+  display: grid;
+  grid-template: auto / repeat(2, 1fr);
+  justify-content: space-between;
+  align-content: center;
+  justify-items: end;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    width: 100%;
+    height: fit-content;
+
+    padding: 58px 24px 0 24px;
+
+    display: grid;
+    grid-template: auto / repeat(2, 1fr);
+    justify-content: space-between;
+    align-content: center;
+    justify-items: end;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  .header {
+    width: 100%;
+    height: fit-content;
+
+    padding: 58px 24px 0 24px;
+
+    display: grid;
+    grid-template: auto / 255px 1fr;
+    justify-content: space-between;
+    align-content: center;
+    justify-items: end;
+    align-items: center;
+  }
+}

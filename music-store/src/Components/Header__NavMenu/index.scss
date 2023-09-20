@@ -1,0 +1,71 @@
+@import '@app/basicSet.scss';
+
+.header__navmenu {
+  width: 100%;
+  height: fit-content;
+
+  display: grid;
+  grid-template: auto / 100%;
+  place-content: end;
+  place-items: end;
+
+  & nav:nth-child(1n + 1) {
+    display: none;
+  }
+
+  div {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__navmenu {
+    width: 24px;
+    height: 24px;
+
+    display: grid;
+    grid-template: auto / 100%;
+    place-content: end;
+    place-items: end;
+
+    & nav:nth-child(1n + 1) {
+      display: none;
+    }
+
+    div {
+      width: 100%;
+      height: fit-content;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .header__navmenu {
+    width: 100%;
+    height: fit-content;
+
+    display: grid;
+    grid-template: auto / 660px 72px;
+    justify-content: space-between;
+    align-content: center;
+    place-items: end;
+
+    & nav:nth-child(1n + 1) {
+      display: inherit;
+    }
+
+
+    div {
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+
+      &:first-child {
+        display: none;
+      }
+    }
+  }
+}

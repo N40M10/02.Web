@@ -1,0 +1,28 @@
+@import '@app/basicSet.scss';
+
+@media (min-width: 1440px) {
+  .header__navuser {
+    width: fit-content;
+    height: fit-content;
+
+    display: grid;
+    grid-template: auto / repeat(2, 1fr);
+    place-content: center;
+    place-items: center;
+
+    a {
+      width: inherit;
+      height: inherit;
+      padding: 16px;
+
+      color: $white-primary-color;
+
+      img {
+        width: 24px;
+        height: 24px;
+        background: 16px;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,21 @@
+@import '@app/basicSet.scss';
+
+@media (min-width: 1440px) {
+  .header__navbar {
+    width: 100%;
+    height: fit-content;
+
+    display: grid;
+    grid-template: auto / repeat(5, 1fr);
+    place-content: center;
+    place-items: center;
+
+    a {
+      width: fit-content;
+      height: fit-content;
+      padding: 16px;
+      @include title--h6;
+      color: $white-primary-color;
+    }
+  }
+}
