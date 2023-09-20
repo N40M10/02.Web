@@ -4,5 +4,38 @@
   width: 100%;
   height: fit-content;
 
+  display: grid;
+  grid-template: auto / 100%;
+  place-content: center;
+  place-items: center;
+
   background-color: $gray-primary-color;
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    width: 100%;
+    height: fit-content;
+
+    display: grid;
+    grid-template: auto / repeat(2, 2fr);
+    place-content: center;
+    place-items: center;
+
+    background-color: $gray-primary-color;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer {
+    width: 100%;
+    height: fit-content;
+
+    display: grid;
+    grid-template: auto / repeat(2, 2fr);
+    place-content: center;
+    place-items: center;
+
+    background-color: $gray-primary-color;
+  }
 }

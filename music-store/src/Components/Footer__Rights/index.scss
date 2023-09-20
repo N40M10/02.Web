@@ -17,3 +17,47 @@
     @include caption--text;
   }
 }
+
+@media (min-width: 1024px) {
+  .footer__rights {
+    width: 100%;
+    padding: 8px 8px 8px 64px;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    gap: 10px;
+
+    color: $white-primary-color;
+    background: $black-color;
+
+    strong {
+      color: $white-primary-color;
+      @include caption--text;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer__rights {
+    width: 100%;
+    padding: 8px 8px 8px 64px;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    gap: 10px;
+
+    color: $white-primary-color;
+    background: $black-color;
+
+    strong {
+      color: $white-primary-color;
+      @include caption--text;
+    }
+  }
+}

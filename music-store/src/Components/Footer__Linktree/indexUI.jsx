@@ -16,6 +16,14 @@ const Footer__LinktreeUI = () => {
                     <a href="">Wishlist</a>
                     <a href="">Acount information</a>
                 </nav>
+                <nav>
+                    <span><img src={IconLine} alt="icon line"/></span>
+                    <a href=""><strong>Store</strong></a>
+                    <a href="">Security Notice</a>
+                    <a href="">Location & Hours</a>
+                    <a href="">Rentals</a>
+                    <a href="">Privacy Notice</a>
+                </nav>
             </nav>
         </>
     );
