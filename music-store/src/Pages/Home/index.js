@@ -3,7 +3,9 @@ import HomeUI from './indexUI';
 
 const Home = () => {
     return (
-        <HomeUI />
+        <>
+            <HomeUI />
+        </>
     )
 }
 export default Home

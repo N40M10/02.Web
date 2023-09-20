@@ -1,0 +1,192 @@
+@import '@app/basicSet.scss';
+
+.main__subslider {
+  position: absolute;
+
+  display: grid;
+  grid-template: 3 / 100%;
+  place-content: center;
+  place-items: center;
+  gap: 4px 0;
+
+  width: 280px;
+  height: fit-content;
+
+  top: 420px;
+  padding: 14px 36px 16px 36px;
+
+  background: $primary-color;
+  border-radius: 16px;
+
+  h5 {
+    width: 226px;
+    height: fit-content;
+
+    color: $white-primary-color;
+    @include title--h5;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  p {
+    width: 226px;
+    height: fit-content;
+
+    color: $white-primary-color;
+    @include fine--print;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  button {
+    width: fit-content;
+    height: fit-content;
+
+    margin: 8px 0 0 0;
+    padding: 8px 16px;
+
+    background: $secondary-color;
+    border-radius: 16px;
+
+    a {
+      width: 100%;
+      height: fit-content;
+
+      color: $white-primary-color;
+      @include caption--text;
+      text-align: center;
+      font-weight: 600;
+      line-height: 100%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .main__subslider {
+    position: absolute;
+
+    display: grid;
+    grid-template: 3 / 100%;
+    place-content: center;
+    place-items: center;
+    gap: 8px 0;
+
+    width: 898px;
+    height: fit-content;
+
+    margin: 512px 0 0 0;
+    padding: 32px 36px 34px 36px;
+
+    background: $primary-color;
+    border-radius: 16px;
+
+    h5 {
+      width: 616px;
+      height: fit-content;
+
+      color: $white-primary-color;
+      @include title--h5;
+      font-size: 4.6rem;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    p {
+      width: 532px;
+      height: fit-content;
+
+      color: $white-primary-color;
+      @include fine--print;
+      font-size: 2.4rem;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    button {
+      width: fit-content;
+      height: fit-content;
+
+      margin: 12px 0 0 0;
+      padding: 8px 16px;
+
+      background: $secondary-color;
+      border-radius: 16px;
+
+      a {
+        width: 100%;
+        height: fit-content;
+
+        color: $white-primary-color;
+        @include caption--text;
+        text-align: center;
+        font-weight: 600;
+        line-height: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .main__subslider {
+    position: absolute;
+
+    display: grid;
+    grid-template: 3 / 100%;
+    place-content: center;
+    place-items: center;
+    gap: 8px 0;
+
+    width: 1320px;
+    height: fit-content;
+
+    margin: 512px 0 0 0;
+    padding: 32px 36px 36px 36px;
+
+    background: $primary-color;
+    border-radius: 16px;
+
+    h5 {
+      width: 616px;
+      height: fit-content;
+
+      color: $white-primary-color;
+      @include title--h5;
+      font-size: 4.6rem;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    p {
+      width: 532px;
+      height: fit-content;
+
+      color: $white-primary-color;
+      @include fine--print;
+      font-size: 2.4rem;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    button {
+      width: fit-content;
+      height: fit-content;
+
+      margin: 12px 0 0 0;
+      padding: 8px 16px;
+
+      background: $secondary-color;
+      border-radius: 16px;
+
+      a {
+        width: 100%;
+        height: fit-content;
+
+        color: $white-primary-color;
+        @include caption--text;
+        text-align: center;
+        font-weight: 600;
+        line-height: 100%;
+      }
+    }
+  }
+}

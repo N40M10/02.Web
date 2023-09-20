@@ -1,11 +1,11 @@
 import React from "react";
-import Layout from "@layouts"
+import Main from '@components/Main';
 import './index.scss';
 
 const HomeUI = () => {
     return (
       <>
-        <h1>Hola Este es Home</h1>
+        <Main />
       </>
     )
 }

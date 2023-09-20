@@ -1,0 +1,77 @@
+@import '@app/basicSet.scss';
+
+.main__slider {
+  width: 100%;
+  height: 508px;
+
+  background: url("@images/img_slide_sm.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h2 {
+    position: absolute;
+    display: block;
+
+    width: 312px;
+    height: fit-content;
+
+    top: 260px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @include title--h2;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main__slider {
+    width: 100%;
+    height: 812px;
+
+    background: url("@images/img_slide_md.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h2 {
+      position: absolute;
+      display: block;
+
+      width: 480px;
+      height: fit-content;
+
+      top: 360px;
+      left: 306px;
+
+      @include title--h2;
+      font-size: 5.6rem;
+      text-align: start;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .main__slider {
+    width: 100%;
+    height: 808px;
+
+    background: url("@images/img_slide_md.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h2 {
+      position: absolute;
+      display: block;
+
+      width: 520px;
+      height: fit-content;
+
+      top: 360px;
+      left: 320px;
+
+      @include title--h2;
+      font-size: 5.6rem;
+      text-align: start;
+    }
+  }
+}

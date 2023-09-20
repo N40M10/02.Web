@@ -1,6 +1,10 @@
 @import '@app/basicSet.scss';
 
 .header {
+  position: absolute;
+  z-index: 9;
+  top: 0;
+
   width: 100%;
   height: fit-content;
 
@@ -19,7 +23,7 @@
     width: 100%;
     height: fit-content;
 
-    padding: 58px 24px 0 24px;
+    padding: 58px 65px 0 65px;
 
     display: grid;
     grid-template: auto / repeat(2, 1fr);
@@ -35,7 +39,7 @@
     width: 100%;
     height: fit-content;
 
-    padding: 58px 24px 0 24px;
+    padding: 58px 65px 0 65px;
 
     display: grid;
     grid-template: auto / 255px 1fr;
