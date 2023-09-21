@@ -5,6 +5,72 @@ Este repositorio esta construido con muestras, no se recomienda su uso a menos q
 
 En caso de uso lee primero el archivo a usar y perzonalizalo a tus circunstancias, existen partes creadas con este objetivo, por lo que si no se personaliza es posible que no funcione.
 
+### Music store
+[Probar Search images](https://n40m10.github.io/music-store/)
+
+Una muestra de una ecommers, con el objetivo de mostrar mi conocimiento de React, se utiliza el siguiente diseño.
+
+    - https://www.figma.com/file/z9sjXgTJoPDyBmCVO3NxO4/Responsive-Music-Store-Template-(Community)?type=design&node-id=2-2&mode=design
+
+La logica seguida es:
+
+    - Crear el entorno de trabajo.
+        - Se utiliza webpack-react.sh para crear el entorno de trabajo.
+        - Se limpia y modifica en base a las necesidades del proyecto.
+        - El entorno de trabajo cuenta con:
+            - Compilacion,
+            - Servidor de desarrollo,
+            - Permite la perzonalizacion de fuentes,
+            - Alias...
+
+    - Se define la arquitectura.
+        - Componentes Stateless y se deja todo listo para crear componentes de logica, React, JS, SCSS, HTML, Noto Sans.
+        - Se toma 'src/index.js' como la entrada de la app y la entrada para el empaquetador(webpack).
+        - Se realiza el router en Routes.
+        - La composicion se hace en cada componente padre, Header, Main, Footer,
+        - Los componentes se usan para hacer composicion en los Pages, Home, notfound.
+        - Como el diseño solo tiene el home solo se realiza esta pagina y un 404, se pueden agregar mas pages.
+        - Se crean los componentes en 'src/Components', index.js para logica, indexUI.jsx para temas.
+
+    - Se inicia con la maquetacion.
+        - Se inicia con Mobile first(320*480).
+        - Se termina con Pantalla (1440px+).
+
+    - Se agregara interactividad mediante JS.
+        - Pendiente
+        - Solo se tiene un router con dos paginas.
+            - Home
+            - 404
+
+    - Se desplegara mediante gitPages
+        - https://n40m10.github.io/music-store/
+
+#### Uso de music-store
+Para el uso de store-e-commers solo necesitas clonar el repositorio y dentro de storage-e-commers ejecutar los scripts:
+
+    - Iniciar servidor de desarrollo
+        - [/music-store/] $ npm run start
+
+    - Compilacion en modo desarrollo
+        - [/music-store/] $ npm run dev
+
+    - Compilacion en modo produccion
+        - [/music-store/] $ npm run build
+
+Recuerda que debes usar npm install para poder trabajar sobre el proyecto.
+
+#### Screenshot
+
+##### Image Mobile Desing
+![Screenshot MobileDesing](https://github.com/N40M10/02.Web/blob/main/music-store/src/Assets/screenShot/ImageMobileDesing.png)
+music-store
+##### Image Middle Desing
+![Screenshot BrakePoint](https://github.com/N40M10/02.Web/blob/main/music-store/src/Assets/screenShot/ImageMiddleDesing.png)
+
+##### Image Desktop Desing
+![Screenshot DesktopDesing](https://github.com/N40M10/02.Web/blob/main/music-store/src/Assets/screenShot/ImageDesktopDesing.png)
+
+
 ### search-images
 [Probar Search images](https://n40m10.github.io/search-images/#videos)
 
