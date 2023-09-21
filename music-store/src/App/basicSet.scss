@@ -33,7 +33,7 @@ FUENTES
 
 /* @include title-h1 */
 @mixin title--h1 {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans, sans-serif';
   font-size: 3.6rem;
   font-style: normal;
   font-weight: 700;
@@ -41,7 +41,7 @@ FUENTES
 }
 
 @mixin title--h2 {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans, sans-serif';
   font-size: 3.2rem;
   font-style: normal;
   font-weight: 700;
@@ -49,7 +49,7 @@ FUENTES
 }
 
 @mixin title--h3 {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans, sans-serif';
   font-size: 2.8rem;
   font-style: normal;
   font-weight: 700;
@@ -57,7 +57,7 @@ FUENTES
 }
 
 @mixin title--h4 {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans, sans-serif';
   font-size: 2.4rem;
   font-style: normal;
   font-weight: 700;
@@ -65,7 +65,7 @@ FUENTES
 }
 
 @mixin title--h5 {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans, sans-serif';
   font-size: 2.1rem;
   font-style: normal;
   font-weight: 600;
@@ -73,7 +73,7 @@ FUENTES
 }
 
 @mixin title--h6 {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans, sans-serif';
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 600;
@@ -81,7 +81,7 @@ FUENTES
 }
 
 @mixin body--text {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans, sans-serif';
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
@@ -89,7 +89,7 @@ FUENTES
 }
 
 @mixin caption--text {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans, sans-serif';
   font-size: 1.28rem;
   font-style: normal;
   font-weight: 400;
@@ -97,7 +97,7 @@ FUENTES
 }
 
 @mixin fine--print {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans, sans-serif';
   font-size: 1.024rem;
   font-style: normal;
   font-weight: 400;

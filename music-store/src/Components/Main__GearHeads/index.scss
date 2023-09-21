@@ -1,0 +1,527 @@
+@import '@app/basicSet.scss';
+
+.main__gearheads {
+  display: grid;
+  grid-template: auto / 100%;
+  place-content: center;
+  place-items: center;
+  gap: 8px 0;
+
+  overflow: hidden;
+
+  width: 320px;
+  height: auto;
+
+  padding: 40px 0;
+
+  span {
+    width: 80px;
+    height: 3px;
+
+    background: $primary-color;
+  }
+
+  & > h4 {
+    @include title--h4;
+    text-align: center;
+    margin: 0 0 24px 0;
+  }
+}
+
+.gearhead__container {
+  width: 320px;
+  height: auto;
+
+  display: grid;
+  grid-template: auto / repeat(1, 100%);
+  place-content: center;
+  place-items: center;
+  gap: 24px 0;
+
+  background: $white-primary-color;
+
+  .gearhead {
+    width: 320px;
+    height: 434px;
+
+    display: grid;
+    grid-template: auto / 320px;
+    justify-content: center;
+    align-content: start;
+    justify-items: center;
+    align-items: start;
+    gap: 0;
+
+    img {
+      width: 320px;
+      height: 312px;
+
+      display: inherit;
+
+      object-fit: cover;
+      object-position: center;
+      border-radius: 8px 8px 0 0;
+    }
+
+    figcaption {
+      width: 320px;
+      height: 122px;
+
+      padding: 32px;
+
+      display: grid;
+      grid-template: auto / repeat(1, 100%);
+      place-content: start;
+      place-items: start;
+      gap: 4px 0;
+
+      background: $white-secondary-color;
+      border-radius: 0 0 8px 8px;
+
+      a {
+
+        width: 100%;
+
+        @include title--h4;
+        color: $black-color;
+        text-align: left;
+
+        h4 {
+          width: 100%;
+          text-align: left;
+        }
+      }
+
+      h6 {
+        @include title--h6;
+        color: $gray-primary-color;
+        text-align: left;
+      }
+    }
+
+    &:nth-child(1) {
+      figcaption {
+        background: $white-secondary-color;
+        a {
+          color: $black-color;
+        }
+        h6 {
+          color: $gray-primary-color;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      figcaption {
+        background: $black-color;
+        a {
+          color: $white-primary-color;
+        }
+        h6 {
+          color: $white-secondary-color;
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      figcaption {
+        background: $white-secondary-color;
+        a {
+          color: $black-color;
+        }
+        h6 {
+          color: $gray-primary-color;
+        }
+      }
+    }
+
+    &:nth-child(4) {
+      figcaption {
+        background: $black-color;
+        a {
+          color: $white-primary-color;
+        }
+        h6 {
+          color: $white-secondary-color;
+        }
+      }
+    }
+
+    &:nth-child(5) {
+      figcaption {
+        background: $white-secondary-color;
+        a {
+          color: $black-color;
+        }
+        h6 {
+          color: $gray-primary-color;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .main__gearheads {
+    display: grid;
+    grid-template: auto / 100%;
+    place-content: center;
+    place-items: center;
+    gap: 8px 0;
+
+    overflow: hidden;
+
+    width: 894px;
+    height: auto;
+
+    padding: 80px 65px;
+
+    span {
+      width: 120px;
+      height: 3px;
+
+      background: $primary-color;
+    }
+
+    & > h4 {
+      @include title--h4;
+      text-align: center;
+      font-size: 5.6rem;
+      margin: 0 0 36px 0;
+    }
+  }
+
+  .gearhead__container {
+    width: 894px;
+    height: auto;
+
+    display: grid;
+    grid-template: auto / repeat(2, 1fr);
+    place-content: center;
+    place-items: center;
+    gap: 48px 0;
+
+    background: $white-primary-color;
+
+    .gearhead {
+      width: 432px;
+      height: 602px;
+
+      display: grid;
+      grid-template: auto / 320px;
+      justify-content: center;
+      align-content: start;
+      justify-items: center;
+      align-items: start;
+      gap: 0;
+
+      img {
+        width: 432px;
+        height: 486px;
+
+        display: inherit;
+
+        object-fit: cover;
+        object-position: center;
+        border-radius: 8px 8px 0 0;
+      }
+
+      figcaption {
+        width: 432px;
+        height: 122px;
+
+        padding: 32px;
+
+        display: grid;
+        grid-template: auto / repeat(1, 100%);
+        place-content: start;
+        place-items: start;
+        gap: 4px 0;
+
+        background: $white-secondary-color;
+        border-radius: 0 0 8px 8px;
+
+        a {
+          width: 100%;
+
+          @include title--h4;
+          color: $black-color;
+          text-align: left;
+
+          h4 {
+            width: 100%;
+            text-align: left;
+          }
+        }
+
+        h6 {
+          @include title--h6;
+          color: $gray-primary-color;
+          text-align: left;
+        }
+      }
+
+      &:nth-child(1) {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        figcaption {
+          background: $white-secondary-color;
+          a {
+            color: $black-color;
+          }
+          h6 {
+            color: $gray-primary-color;
+          }
+        }
+      }
+
+      &:nth-child(2) {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        figcaption {
+          background: $black-color;
+          a {
+            color: $white-primary-color;
+          }
+          h6 {
+            color: $white-secondary-color;
+          }
+        }
+      }
+
+      &:nth-child(3) {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        figcaption {
+          background: $black-color;
+          a {
+            color: $white-primary-color;
+          }
+          h6 {
+            color: $white-secondary-color;
+          }
+        }
+      }
+
+      &:nth-child(4) {
+        grid-row-start: 1;
+        grid-column-start: 2;
+        figcaption {
+          background: $white-secondary-color;
+          a {
+            color: $black-color;
+          }
+          h6 {
+            color: $gray-primary-color;
+          }
+        }
+      }
+
+      &:nth-child(5) {
+        display: none;
+        figcaption {
+          background: $white-secondary-color;
+          a {
+            color: $black-color;
+          }
+          h6 {
+            color: $gray-primary-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .main__gearheads {
+    display: grid;
+    grid-template: auto / 100%;
+    place-content: center;
+    place-items: center;
+    gap: 8px 0;
+
+    overflow: hidden;
+
+    width: 1264px;
+    height: auto;
+
+    padding: 88px;
+
+    span {
+      width: 120px;
+      height: 3px;
+
+      background: $primary-color;
+    }
+
+    & > h4 {
+      @include title--h4;
+      text-align: center;
+      font-size: 5.6rem;
+      margin: 0 0 36px 0;
+    }
+  }
+
+  .gearhead__container {
+    width: 1264px;
+    height: auto;
+
+    display: grid;
+    grid-template: auto / repeat(6, 1fr);
+    place-content: start;
+    place-items: start;
+    gap: 48px 32px;
+
+    background: $white-primary-color;
+
+    .gearhead {
+      width: 400px;
+      height: 602px;
+
+      display: grid;
+      grid-template: auto / 320px;
+      justify-content: center;
+      align-content: start;
+      justify-items: center;
+      align-items: start;
+      gap: 0;
+
+      img {
+        width: 400px;
+        height: 480px;
+
+        display: inherit;
+
+        object-fit: cover;
+        object-position: center;
+        border-radius: 8px 8px 0 0;
+      }
+
+      figcaption {
+        width: 400px;
+        height: 122px;
+
+        padding: 32px;
+
+        display: grid;
+        grid-template: auto / repeat(1, 100%);
+        place-content: start;
+        place-items: start;
+        gap: 4px 0;
+
+        background: $white-secondary-color;
+        border-radius: 0 0 8px 8px;
+
+        a {
+          width: 100%;
+
+          @include title--h4;
+          color: $black-color;
+          text-align: left;
+
+          h4 {
+            width: 100%;
+            text-align: left;
+          }
+        }
+
+        h6 {
+          @include title--h6;
+          color: $gray-primary-color;
+          text-align: left;
+        }
+      }
+
+      &:nth-child(1) {
+        grid-row: 2;
+        grid-column: 2 / 3;
+        figcaption {
+          background: $white-secondary-color;
+          a {
+            color: $black-color;
+          }
+          h6 {
+            color: $gray-primary-color;
+          }
+        }
+      }
+
+      &:nth-child(2) {
+        grid-row: 2;
+        grid-column: 3 / 4;
+        figcaption {
+          background: $black-color;
+          a {
+            color: $white-primary-color;
+          }
+          h6 {
+            color: $white-secondary-color;
+          }
+        }
+      }
+
+      &:nth-child(3) {
+        width: 616px;
+        height: 608px;
+        grid-row: 1;
+        grid-column: 1 / span 2;
+        img {
+          width: 616px;
+          height: 486px;
+        }
+        figcaption {
+          width: 616px;
+          height: 122px;
+
+          background: $black-color;
+          a {
+            color: $white-primary-color;
+          }
+          h6 {
+            color: $white-secondary-color;
+          }
+        }
+      }
+
+      &:nth-child(4) {
+        width: 616px;
+        height: 608px;
+        grid-row: 1;
+        grid-column: 2 / span 2;
+        justify-self: end;
+        img {
+          width: 616px;
+          height: 486px;
+        }
+        figcaption {
+          width: 616px;
+          height: 122px;
+
+          background: $black-color;
+          a {
+            color: $white-primary-color;
+          }
+          h6 {
+            color: $white-secondary-color;
+          }
+        }
+      }
+
+      &:nth-child(5) {
+        display: inherit;
+        grid-row: 2;
+        grid-column: 1 / 2;
+        figcaption {
+          background: $white-secondary-color;
+          a {
+            color: $black-color;
+          }
+          h6 {
+            color: $gray-primary-color;
+          }
+        }
+      }
+    }
+  }
+}
