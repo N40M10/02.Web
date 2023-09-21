@@ -498,12 +498,12 @@
           width: 616px;
           height: 122px;
 
-          background: $black-color;
+          background: $white-secondary-color;
           a {
-            color: $white-primary-color;
+            color: $black-color;
           }
           h6 {
-            color: $white-secondary-color;
+            color: $gray-primary-color;
           }
         }
       }
@@ -513,12 +513,13 @@
         grid-row: 2;
         grid-column: 1 / 2;
         figcaption {
-          background: $white-secondary-color;
+
+          background: $black-color;
           a {
-            color: $black-color;
+            color: $white-primary-color;
           }
           h6 {
-            color: $gray-primary-color;
+            color: $white-secondary-color;
           }
         }
       }

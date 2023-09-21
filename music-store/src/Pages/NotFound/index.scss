@@ -1,0 +1,51 @@
+.error_404 {
+  display: block;
+  text-align: center;
+
+  width: 100%;
+  height: 100vh;
+
+  padding: 240px 0;
+
+  font-size: 4.0rem;
+  color: red;
+
+  text-align: center;
+  background: black;
+}
+
+@media (min-width: 1024px) {
+  .error_404 {
+    display: block;
+    text-align: center;
+
+    width: 100%;
+    height: 100vh;
+
+    padding: 240px 0;
+
+    font-size: 4.0rem;
+    color: red;
+
+    text-align: center;
+    background: black;
+  }
+}
+
+@media (min-width: 1440px) {
+  .error_404 {
+    display: block;
+    text-align: center;
+
+    width: 100%;
+    height: 100vh;
+
+    padding: 320px 0  240px 0;
+
+    font-size: 4.0rem;
+    color: red;
+
+    text-align: center;
+    background: black;
+  }
+}

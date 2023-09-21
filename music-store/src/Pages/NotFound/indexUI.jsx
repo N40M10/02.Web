@@ -4,7 +4,7 @@ import './index.scss';
 const NotFoundUI = () => {
     return (
       <>
-        <h1>404 Page Not Found</h1>
+        <h1 className="error_404">404<br/>Page<br/>Not Found</h1>
       </>
     )
 }
